@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">便签笔记本</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_switch_user">切换用户</string>
+    <string name="menu_change_password">修改密码</string>
+</resources>

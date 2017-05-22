@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/registe_LinerLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4sp"
+        android:id="@+id/registepassword1">
+
+        <AutoCompleteTextView
+            android:id="@+id/registeEditView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入用户名"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:layout_margin="4sp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="6sp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/registepassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入密码"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:textColor="@color/red"
+        android:layout_margin="4sp"
+        android:layout_marginBottom="6sp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/registepassword_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="再次输入密码"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:textColor="@color/red"
+        android:layout_margin="4sp"
+        android:layout_marginBottom="6sp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/registe_find_password_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入密码找回问题"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t4"
+        android:textColor="@color/red"
+        android:layout_margin="4sp"
+        android:layout_marginBottom="6sp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/registe_find_password_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入密码找回答案"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t5"
+        android:textColor="@color/red"
+        android:layout_margin="4sp"
+        android:layout_marginBottom="6sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t6"
+            android:text="注册"
+            android:textSize="18sp"
+            android:textColor="@drawable/layout_selecter"
+            android:layout_margin="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t7"
+            android:text="取消"
+            android:textSize="18sp"
+            android:textColor="@drawable/layout_selecter"
+            android:layout_margin="15sp" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
